@@ -97,6 +97,3 @@ FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r12
 
 # Tags: 2.4.3-debian-10-r11
 FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r11
-
-# Tags: 2.4.3-debian-10-r10
-FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r10
