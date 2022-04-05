@@ -1,12 +1,15 @@
-# Tags: latest, 2.4.3-debian-10-r42, 2.4.3, 2-debian-10, 2
+# Tags: latest, 2.4.3-debian-10-r43, 2.4.3, 2-debian-10, 2
 FROM bitnami/kubeapps-dashboard:latest
-FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r42
+FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r43
 FROM bitnami/kubeapps-dashboard:2.4.3
 FROM bitnami/kubeapps-dashboard:2-debian-10
 FROM bitnami/kubeapps-dashboard:2
 
 # Tags: _
 FROM bitnami/kubeapps-dashboard:_
+
+# Tags: 2.4.3-debian-10-r42
+FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r42
 
 # Tags: 2.4.3-debian-10-r41
 FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r41
@@ -85,15 +88,3 @@ FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r16
 
 # Tags: 2.4.3-debian-10-r15
 FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r15
-
-# Tags: 2.4.3-debian-10-r14
-FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r14
-
-# Tags: 2.4.3-debian-10-r13
-FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r13
-
-# Tags: 2.4.3-debian-10-r12
-FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r12
-
-# Tags: 2.4.3-debian-10-r11
-FROM bitnami/kubeapps-dashboard:2.4.3-debian-10-r11
